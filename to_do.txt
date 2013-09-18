@@ -1,0 +1,6 @@
+>> Dont make old expt and new expt separate
+	-- In expt ask for the date and ask for method to input the time (as del_t or start & stop)
+	
+>> In expt ask for time course or normal beta gal [LATER]
+
+>> In expt also ask to add colony
