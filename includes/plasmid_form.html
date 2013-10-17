@@ -1,0 +1,25 @@
+	<form id="plasmid" action="addToDB.php" method="post">
+		<label for="plasmid_name">Name: </label>	
+		<input name="plasmid_name" id="plasmid_name" type="text" value="NULL"/>
+		
+
+		<label for="plasmid_origin">Origin: </label>	
+		<input id="plasmid_origin" name="plasmid_origin" type="text" value="NULL" />
+		
+
+		<label for="plasmid_resistance">Resistance: </label>
+		<select multiple="multiple" id="plasmid_resistance" name="plasmid_resistance[]"> 
+		  <option value="NULL" selected="selected">None</option>
+		  <option value="TET" >Tetracycline</option>
+		  <option value="AMP" >Ampicillin</option>
+		  <option value="STR" >Streptomycin</option>
+		  <option value="KAN" >Kanamycin</option>
+		  <option value="CAM" >Chloramphenicol</option>
+		</select>
+
+		<label for="plasmid_description">Description: </label>
+		<textarea name="plasmid_description" id="plasmid_description">NULL</textarea>
+
+		
+		<button name="plasmid_submit" type="submit">Add Plasmid</button>
+	</form>
